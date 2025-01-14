@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "yarn parcel index.html",
-    "build": "yarn parcel build index.html"
+    "build": "yarn parcel build index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
