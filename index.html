@@ -1,13 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
 </head>
 <body>
+<div style="display:none;">
+    <img id="soldier" width="220" height="277" src="./assets/soldier.png" />
+    <img id="doll" width="220" height="277" src="./assets/doll.png"  />
+    <img id="player" width="220" height="277" src="./assets/player.png"  />
+</div>
+<div style="position:relative;">
     <canvas style="border: 1px solid #c0c0c0" id="game" width="800" height="600">
     </canvas>
     <audio id="game-over" src="./sounds/game-over-arcade-6435.mp3"></audio>
     <audio id="red-light-green-light" src="./sounds/red-light-green-light.mp3"></audio>
+    <button id="reset" style="width: 100px; height: 50px; position: absolute; left: 25%; top: 50%;">Restart</button>
+    <button id="play" style="width: 100px; height: 50px; position: absolute; left: 25%; top: 50%;">Play</button>
+</div>
     <div class="buttons">
         <button style="width: 100px; height: 50px;" id="move">O</button>
         <button style="width: 100px; height: 50px;" id="stop">X</button>
